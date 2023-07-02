@@ -105,6 +105,9 @@ public class CadastroCliente extends JFrame {
         return rootPanel;
     }
 
+    @Override
     public void setVisible(boolean b) {
+        super.setVisible(b);
     }
+
 }
