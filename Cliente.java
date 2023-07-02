@@ -5,8 +5,11 @@ public class Cliente {
 
     // Construtor, getters e setters
     public Cliente(String nome, String cpf, int idade) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.idade = idade;
     }
-
+    
     public String getNome() {
         return nome;
     }
@@ -31,3 +34,4 @@ public class Cliente {
         this.idade = idade;
     }
 }
+
